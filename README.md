@@ -1,6 +1,6 @@
 # 🎬 Netflix Dashboard
 
-An interactive Streamlit dashboard that analyzes Netflix content data using **AI-powered insights**, including **sentiment analysis** and a **content-based recommendation engine**.
+An interactive Streamlit dashboard that analyzes Netflix content data using **Data-driven insights**, including **sentiment analysis** and a **content-based recommendation engine**.
 
 ---
 
@@ -79,7 +79,6 @@ cd netflix-dashboard
 ```
 
 ### 2️⃣ Create and Activate Virtual Environment
-Create a Python virtual environment to isolate dependencies.
 
 **Windows:**
 ```bash
@@ -94,14 +93,11 @@ source venv/bin/activate
 ```
 
 ### 3️⃣ Install Dependencies
-Install all required Python packages listed in `requirements.txt`:
-
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Install Dependencies
-Start the Netflix AI Dashboard locally:
+### 4️⃣ Start the Netflix AI Dashboard locally:
 
 ```bash
 streamlit run netflix_dashboard.py
