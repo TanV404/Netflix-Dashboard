@@ -50,6 +50,7 @@ An interactive Streamlit dashboard that analyzes Netflix content data using **AI
 
 ## 🧩 Project Structure
 
+```
 netflix-ai-dashboard/
 ├── data/
 │   └── netflix_titles.csv
@@ -65,6 +66,7 @@ netflix-ai-dashboard/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ---
 
