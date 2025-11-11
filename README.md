@@ -97,7 +97,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Start the Netflix AI Dashboard locally:
+### 4️⃣ Start the Netflix Dashboard locally:
 
 ```bash
 streamlit run netflix_dashboard.py
