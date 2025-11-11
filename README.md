@@ -77,6 +77,7 @@ An interactive Streamlit dashboard that analyzes Netflix content data using **AI
 ```bash
 git clone https://github.com/yourusername/netflix-dashboard.git
 cd netflix-dashboard
+```
 
 ### 2️⃣ Create and Activate Virtual Environment
 Create a Python virtual environment to isolate dependencies.
@@ -85,22 +86,25 @@ Create a Python virtual environment to isolate dependencies.
 ```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 **macOS/Linux:**
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 ### 3️⃣ Install Dependencies
 Install all required Python packages listed in `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 4️⃣ Install Dependencies
 Start the Netflix AI Dashboard locally:
 
 ```bash
 streamlit run netflix_dashboard.py
-
+```
 
