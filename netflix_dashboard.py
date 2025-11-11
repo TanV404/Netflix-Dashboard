@@ -17,7 +17,8 @@ st.caption("Explore, analyze, and get recommendations using data-driven insights
 # --- Load and Process Data ---
 @st.cache_data
 def load_data():
-    df = load_and_clean_data("data/netflix_titles.csv")
+    url = "https://raw.githubusercontent.com/TanV404/Netflix-Dashboard/main/data/netflix_titles.csv"
+    df = pd.read_csv(url, quotechar='"', on_bad_lines='skip', encoding='utf-8')
     df = add_sentiment(df)
     df_clean, cosine_sim, indices = build_recommender(df)
     return df, df_clean, cosine_sim, indices
