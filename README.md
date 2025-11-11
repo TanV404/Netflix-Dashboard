@@ -34,8 +34,6 @@ An interactive Streamlit dashboard that analyzes Netflix content data using **AI
 ### Recommendation Tab
 ![Recommendation Tab](screenshots/recommendation.png)
 
-> Replace the images in `screenshots/` with actual screenshots from your app.
-
 ---
 
 ## 🧠 Tech Stack
@@ -52,22 +50,21 @@ An interactive Streamlit dashboard that analyzes Netflix content data using **AI
 
 ## 🧩 Project Structure
 
-📦 netflix-ai-dashboard/
+netflix-ai-dashboard/
 ├── data/
-│ └── netflix_titles.csv
+│   └── netflix_titles.csv
 ├── screenshots/
-│ ├── overview.png
-│ ├── sentiment.png
-│ └── recommendation.png
+│   ├── overview.png
+│   ├── sentiment.png
+│   └── recommendation.png
 ├── src/
-│ ├── data_cleaning.py
-│ ├── sentiment_analysis.py
-│ └── recommender.py
+│   ├── data_cleaning.py
+│   ├── sentiment_analysis.py
+│   └── recommender.py
 ├── app.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
 
 ---
 
