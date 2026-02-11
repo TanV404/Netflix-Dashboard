@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 from textblob import TextBlob
-from src.data_cleaning import load_and_clean_data
 from src.sentiment_analysis import add_sentiment
 from src.recommender import build_recommender, recommend
 
