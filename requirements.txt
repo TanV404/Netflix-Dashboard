@@ -3,4 +3,4 @@ pandas
 numpy
 matplotlib
 textblob
-sklearn
+scikit-learn
