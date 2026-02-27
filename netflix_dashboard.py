@@ -113,7 +113,7 @@ with tab2:
 
     with col2:
         st.subheader("😔 Negative Samples")
-        negative_samples = filtered_df[filtered_df["sentiment"] == "negative"][["title", "description"]].head(5)
+        negative_samples = filtered_df[filtered_df["sentiment"] == "negative"][["title", "description"]].tail(5)
         if len(negative_samples) == 0:
             st.info("No negative samples found.")
         else:
